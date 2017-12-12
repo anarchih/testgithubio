@@ -29,6 +29,7 @@ function submitToTurk(){
             $("#mturk_form").attr('action', gup("turkSubmitTo") + '/mturk/externalSubmit');
         }
     }
+    console.log("Submit")
     $("#mturk_form").submit();
     /*For some reasons you need this*/
     return false;
